@@ -26,7 +26,11 @@
     "cookie-session": "^2.0.0-beta.3",
     "express": "^4.16.3",
     "localtunnel": "^1.9.0",
+<<<<<<< HEAD
     "lodash": ">=4.17.13",
+=======
+    "lodash": "^4.17.13",
+>>>>>>> fae1a2b69f42f2f1023913f14fddbb3623d48227
     "mongoose": "^5.1.1",
     "nodemon": "^1.17.4",
     "npm": "^6.0.1",
