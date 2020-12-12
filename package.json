@@ -14,41 +14,36 @@
     "server": "nodemon index.js",
     "client": "npm run start --prefix client",
     "dev": "concurrently \"npm run server\" \"npm run client\" \"npm run webhook\"",
-    "heroku-postbuild":
-      "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client",
     "webhook": "./sendgrid_webhook.sh"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "body-parser": "^1.18.3",
-    "concurrently": "^3.5.1",
-    "cookie-session": "^2.0.0-beta.3",
-    "express": "^4.16.3",
-    "localtunnel": "^1.9.0",
-<<<<<<< HEAD
-    "lodash": ">=4.17.13",
-=======
+    "body-parser": "^1.19.0",
+    "concurrently": "^3.6.1",
+    "cookie-session": "^2.0.0-rc.1",
+    "express": "^4.17.1",
+    "localtunnel": "^1.9.2",
     "lodash": "^4.17.13",
->>>>>>> fae1a2b69f42f2f1023913f14fddbb3623d48227
-    "mongoose": "^5.1.1",
-    "nodemon": "^1.17.4",
-    "npm": "^6.0.1",
-    "passport": "^0.4.0",
-    "passport-google-oauth20": "^1.0.0",
-    "path-parser": "^4.1.0",
+    "mongoose": "^5.11.7",
+    "nodemon": "^1.19.4",
+    "npm": "^6.14.9",
+    "passport": "^0.4.1",
+    "passport-google-oauth20": "^2.0.0",
+    "path-parser": "^4.2.0",
     "sendgrid": "^5.2.3",
-    "stripe": "^6.0.0"
+    "stripe": "^6.36.0"
   },
   "devDependencies": {
     "eslint": "^4.19.1",
     "eslint-config-airbnb": "^16.1.0",
-    "eslint-config-prettier": "^2.9.0",
-    "eslint-plugin-import": "^2.11.0",
-    "eslint-plugin-jsx-a11y": "^6.0.3",
-    "eslint-plugin-prettier": "^2.6.0",
-    "eslint-plugin-react": "^7.8.2",
-    "prettier": "^1.12.1",
-    "prettier-eslint": "^8.8.1"
+    "eslint-config-prettier": "^2.10.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-prettier": "^2.7.0",
+    "eslint-plugin-react": "^7.21.5",
+    "prettier": "^1.19.1",
+    "prettier-eslint": "^8.8.2"
   }
 }
