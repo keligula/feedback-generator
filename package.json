@@ -24,7 +24,7 @@
     "concurrently": "^3.6.1",
     "cookie-session": "^2.0.0-rc.1",
     "express": "^4.17.3",
-    "localtunnel": "^1.9.2",
+    "localtunnel": "^2.0.2",
     "lodash": "^4.17.21",
     "mongoose": "^5.11.7",
     "nodemon": "^1.19.4",
