@@ -28,7 +28,7 @@
     "lodash": "^4.17.21",
     "mongoose": "^5.13.20",
     "nodemon": "^1.19.4",
-    "npm": "^6.14.18",
+    "npm": "^10.8.1",
     "passport": "^0.4.1",
     "passport-google-oauth20": "^2.0.0",
     "path-parser": "^4.2.0",
